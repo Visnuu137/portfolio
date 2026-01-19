@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visnu Sathia Seelan - Front End Developer Portfolio">
+    <title>Visnu Sathia Seelan - Front End Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">VS</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        <div class="planet planet-1"></div>
+        <div class="planet planet-2"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-title">visnu.js</span>
+                    </div>
+                    <div class="code-body">
+                        <div class="code-line">
+                            <span class="code-keyword">const</span> 
+                            <span class="code-variable">developer</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-string">'Visnu Sathia Seelan'</span><span class="code-semicolon">;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">const</span> 
+                            <span class="code-variable">role</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-string">'Front End Developer'</span><span class="code-semicolon">;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">const</span> 
+                            <span class="code-variable">skills</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-bracket">[</span>
+                            <span class="code-string">'React'</span><span class="code-semicolon">,</span>
+                            <span class="code-string">'Node.js'</span><span class="code-semicolon">,</span>
+                            <span class="code-string">'Full Stack'</span>
+                            <span class="code-bracket">]</span><span class="code-semicolon">;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-function">console</span><span class="code-operator">.</span><span class="code-function">log</span><span class="code-bracket">(</span>
+                            <span class="code-string">`Hello World! I'm ${developer}`</span>
+                            <span class="code-bracket">)</span><span class="code-semicolon">;</span>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="hero-name">Visnu Sathia Seelan</h1>
+                <h2 class="hero-title">&lt;Front End Developer /&gt;</h2>
+                <p class="hero-description">Full Stack Developer specializing in building high-performance web applications</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Get In Touch
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:visnusathia@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+60129986595" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">&lt;</span>About Me<span class="code-bracket">/&gt;</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="terminal-title">visnu@portfolio:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">visnu@portfolio:~$</span>
+                            <span class="terminal-command">cat about.txt</span>
+                        </div>
+                        <div class="terminal-output">
+                            <p>Full Stack Developer specializing in building high-performance web applications using React, Node.js, Express, and MongoDB.</p>
+                            <p>Experienced in optimizing application performance, integrating third-party APIs, and deploying cloud-based solutions.</p>
+                            <p>Committed to delivering clean, maintainable code and contributing to all stages of the software development lifecycle.</p>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">visnu@portfolio:~$</span>
+                            <span class="terminal-cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Negeri Sembilan, Malaysia</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-language"></i>
+                        <span>English (Fluent), Bahasa Melayu, Tamil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">[</span>Skills<span class="code-bracket">]</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i> Front-End
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">jQuery</span>
+                        <span class="skill-tag">Expo</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-server"></i> Back-End
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Ruby</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">.NET Core</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">{</span>Work Experience<span class="code-bracket">}</span>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Front-End Developer</h3>
+                            <span class="timeline-company">Total Dynamic Technology Holdings Sdn Bhd</span>
+                            <span class="timeline-date">2025 - PRESENT</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Developed a Payroll Application using React.js, JavaScript, PHP, Python, and SQL, enabling efficient employee salary management and reporting.</li>
+                            <li>Designed and implemented an Accounting System using React.js, Laravel, and PostgreSQL, streamlining financial operations and reporting processes.</li>
+                            <li>Developed a Sales Agent Portal System using Vue.js, improving agent productivity and real-time data access.</li>
+                            <li>Provided IT support and troubleshooting in-office.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Intern, SQL Database Management</h3>
+                            <span class="timeline-company">Swap Asia</span>
+                            <span class="timeline-date">2024/01 - 2024/06</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Supported SQL to SAP migration projects with data mapping, testing, and validation.</li>
+                            <li>Managed and optimized SQL databases.</li>
+                            <li>Documented processes and created technical guides to streamline future migration efforts.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Warehouse Officer</h3>
+                            <span class="timeline-company">Shopee Express</span>
+                            <span class="timeline-date">2020 - 2021</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Utilized inventory management systems for precise documentation of incoming stock and product specifications.</li>
+                            <li>Facilitated new product entries into the system and supported the sales team with product samples.</li>
+                            <li>Resolved customer complaints related to returns and exchanges.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">&lt;</span>Projects<span class="code-bracket">/&gt;</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="project-title">Payroll & HR Web Application</h3>
+                    <p class="project-description">Managed employee payroll, attendance, leave, claims, and approvals.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="project-title">Solar Sales Agent Portal</h3>
+                    <p class="project-description">Lead management and sales tracking system for solar agents.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="project-title">Accounting System</h3>
+                    <p class="project-description">Basic accounting system for income, expenses, and invoicing.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="project-title">Pre-School Management Application</h3>
+                    <p class="project-description">Student registration, attendance, and fee management.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="project-title">Saloon Booking Application</h3>
+                    <p class="project-description">Online appointment booking and schedule management.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3 class="project-title">Business Billing System</h3>
+                    <p class="project-description">Invoice generation, payment tracking, and customer management.</p>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="project-title">FOREX Trade Journaling Web App</h3>
+                    <p class="project-description">A comprehensive Forex trade journaling application for tracking and analyzing trading performance.</p>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="project-title">Fashion and Beauty Appointment Booking Application</h3>
+                    <p class="project-description">Developed an appointment booking application focused on minimizing customer wait times. Features include booking at salons or requesting at-home beauty services, location services, real-time notifications, secure payment gateways, and ratings/feedback mechanisms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">(</span>Education & Certifications<span class="code-bracket">)</span>
+            </h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 class="education-title">Bachelor of Information Technology (HONS)</h3>
+                    <p class="education-institution">INTI International University</p>
+                    <p class="education-date">2022 - 2024</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="education-title">CISCO CCNAv7: Introduction to Networks</h3>
+                    <p class="education-institution">CISCO Networking</p>
+                    <ul class="certification-details">
+                        <li>Configure switches and devices for local and remote network access</li>
+                        <li>Enable end-to-end connectivity with router configurations</li>
+                        <li>Design IPv4 and IPv6 addressing schemes</li>
+                        <li>Implement secure networking practices</li>
+                    </ul>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="education-title">Additional Certifications</h3>
+                    <ul class="certification-list">
+                        <li>Website Development</li>
+                        <li>App Developing</li>
+                        <li>Internet of Things (IoT)</li>
+                        <li>Young Entrepreneurs (National Level)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="space-bg"></div>
+        <div class="container">
+            <h2 class="section-title">
+                <span class="code-bracket">function</span> GetInTouch<span class="code-bracket">()</span>
+            </h2>
+            <p class="contact-subtitle">I'm always open to discussing new opportunities and interesting projects.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+60129986595">+60 12 998 6595</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:visnusathia@gmail.com">visnusathia@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Negeri Sembilan, Malaysia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="footer-brand">Visnu Sathia Seelan</span>
+                </div>
+                <div class="footer-right">
+                    <a href="mailto:visnusathia@gmail.com" class="footer-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+60129986595" class="footer-link" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span class="copyright-name">Visnu Sathia Seelan</span>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
